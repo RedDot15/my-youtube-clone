@@ -5,7 +5,6 @@ fetch("assets/videos.json")
 .then(response => response.json())
 .then(videos => {
     // console.log(videos);
-
     videos.forEach(video => {
         videoCard += `
         <div class="flex flex-row space-y-3 cursor-pointer">
